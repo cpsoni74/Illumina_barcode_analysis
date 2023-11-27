@@ -47,6 +47,8 @@
 
 2) Enter the path to file1 and file2 and the output file. Run the code to generate the file with barcodes present in the long-read sequencing. 
 
+3) Use aaRS_df.csv for the long-read sequencing file. 
+
 **#Merging +ncAA and -ncAA**
 
 1) The above procedure needs to be followed for both +ncAA and -ncAA separately. 
@@ -61,7 +63,7 @@ Now, we filter barcodes such that the average fold enrichment +ncAA > 2 and aver
 
 **#Generate weblogos for large files**
 
-Frequency plot Weblogos can be generated using https://weblogo.berkeley.edu/logo.cgi. However, this does not work for more than 50,000 sequences. 
+Frequency plot Weblogos can be generated using https://weblogo.berkeley.edu/logo.cgi by simply copying the sequences. However, this does not work for more than 50,000 sequences and this can only be used if the file is not grouped based on barcodes i.e. all reads are kept separate.
 
 Weblogos can also be generated using Logomaker.py. 
 
