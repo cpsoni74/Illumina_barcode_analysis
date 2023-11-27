@@ -59,6 +59,12 @@
 
 Now, we filter barcodes such that the average fold enrichment +ncAA > 2 and average fold enrichment +ncAA/-ncAA > 2 using n_fold_enrichment + - ncAA.py
 
+**#Generate weblogos for large files**
 
+Frequency plot Weblogos can be generated using https://weblogo.berkeley.edu/logo.cgi. However, this does not work for more than 50,000 sequences. 
+
+Weblogos can also be generated using Logomaker.py. 
+
+1) For generating a weblogo for large files, make a csv file with barcodes and corresponding fraction of total values. This code will generate a weblogo based on these values. 
 
 
